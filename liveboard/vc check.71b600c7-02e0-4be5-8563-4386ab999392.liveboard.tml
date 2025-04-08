@@ -74,3 +74,113 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Color\",\"columnProperty\": {}},{\"columnId\": \"Total Revenue\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"1d2b3438-faa2-40b6-b9a4-8f134f38b5d9\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Revenue\"],\"isOpposite\": false}},{\"id\": \"94cbc2ff-d062-4ec2-976f-150fcdc37885\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Color\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Revenue\",\"color\": \"#FCC838\"}]}"
       display_mode: TABLE_MODE
     viz_guid: 6b195834-25b0-439a-9140-8cc50d16394f
+  filters:
+  - column:
+    - Color
+    oper: in
+    values:
+    - almond
+    - antique
+    - aquamarine
+    - azure
+    - beige
+    - bisque
+    - black
+    - blanched
+    - blue
+    - blush
+    - brown
+    - burlywood
+    - burnished
+    - chartreuse
+    - chiffon
+    - chocolate
+    - coral
+    - cornflower
+    - cornsilk
+    - cream
+    - cyan
+    - dark
+    - deep
+    - dim
+    - dodger
+    - drab
+    - firebrick
+    - floral
+    - forest
+    - frosted
+    - gainsboro
+    - ghost
+    - goldenrod
+    - green
+    - grey
+    - honeydew
+    - hot
+    - indian
+    - ivory
+    - khaki
+    - lace
+    - lavender
+    - lawn
+    - lemon
+    - light
+    - lime
+    - linen
+    - magenta
+    - maroon
+    - medium
+    - metallic
+    - midnight
+    - mint
+    - misty
+    - moccasin
+    - navajo
+    - navy
+    - olive
+    - orange
+    - orchid
+    - pale
+    - papaya
+    - peach
+    - peru
+    - pink
+    - plum
+    - powder
+    - puff
+    - purple
+    - red
+    - rose
+    - rosy
+    - royal
+    - saddle
+    - salmon
+    - sandy
+    - seashell
+    - sienna
+    - sky
+    - slate
+    - smoke
+    - snow
+    - spring
+    - steel
+    - tan
+    - thistle
+    - tomato
+    - turquoise
+    - violet
+    - wheat
+    - white
+    - yellow
+    - "{null}"
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  layout:
+    tiles:
+    - visualization_id: Viz_1
+      size: MEDIUM
+    - visualization_id: Viz_2
+      size: LARGE
+  ordered_chips:
+  - name: Color
+    type: FILTER
